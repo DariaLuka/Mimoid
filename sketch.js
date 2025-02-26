@@ -1,4 +1,4 @@
-let W = 25;
+let W = 45;
 let R = 2;
 let easing = 0.1;
 let y, w, grid, song;
