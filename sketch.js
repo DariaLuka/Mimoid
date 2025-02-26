@@ -1,4 +1,4 @@
-let W = 45;
+let W = 55;
 let R = 2;
 let easing = 0.1;
 let y, w, grid, song;
@@ -45,8 +45,8 @@ function draw() {
 
 function setupGrid() {
   let size = min(1920/2,1080/2); // Ensure square layout
-  let cols = int(300 / W);
-  let rows = int(300 / W);
+  let cols = int(500 / W);
+  let rows = int(500 / W);
   
   let gridWidth = cols * W;
   let gridHeight = rows * W;
