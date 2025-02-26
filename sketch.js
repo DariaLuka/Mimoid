@@ -20,7 +20,7 @@ function setup() {
 }
 
 function draw() {
-  background(0,0.05); // Keep screen black
+  background(0,0.02); // Keep screen black
   push();
   
   translate(grid.offsetX, grid.offsetY); // Center the grid
@@ -93,7 +93,7 @@ class Grid {
             rotate(targetAngle * offset);
             hM = map(targetAngle * offset, -25, 25, 30, 90);
             stroke(hM, hM, 100);
-            line(0-R*2,0-R*2, 40,0-R*2);
+            line(0-R*2,0-R*2, 30,0-R*2);
             pop();
           }
         }
