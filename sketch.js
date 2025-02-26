@@ -20,7 +20,7 @@ function setup() {
 }
 
 function draw() {
-  background(0,0.1); // Keep screen black
+  background(0,0.05); // Keep screen black
   push();
   
   translate(grid.offsetX, grid.offsetY); // Center the grid
@@ -40,7 +40,7 @@ function draw() {
 // }
 
 function setupGrid() {
-  let size = min(600,600); // Ensure square layout
+  let size = min(800,800); // Ensure square layout
   let cols = int(size / W);
   let rows = int(size / W);
   
