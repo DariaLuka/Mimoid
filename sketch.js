@@ -44,7 +44,7 @@ function draw() {
 // }
 
 function setupGrid() {
-  let size = min(800,800); // Ensure square layout
+  let size = min(1920/2,1080/2); // Ensure square layout
   let cols = int(size / W);
   let rows = int(size / W);
   
