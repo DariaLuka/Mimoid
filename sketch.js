@@ -16,7 +16,11 @@ function setup() {
   background(0);
   y = color(148, 0, 255);
   w = color(53, 181, 168);
-  song.play();
+
+ userStartAudio().then(() => {
+    song.play();
+  });
+}
 }
 
 function draw() {
