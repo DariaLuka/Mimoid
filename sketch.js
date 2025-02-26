@@ -45,8 +45,8 @@ function draw() {
 
 function setupGrid() {
   let size = min(1920/2,1080/2); // Ensure square layout
-  let cols = int(200 / W);
-  let rows = int(200 / W);
+  let cols = int(300 / W);
+  let rows = int(300 / W);
   
   let gridWidth = cols * W;
   let gridHeight = rows * W;
@@ -97,7 +97,7 @@ class Grid {
             rotate(targetAngle * offset);
             hM = map(targetAngle * offset, -25, 25, 30, 90);
             stroke(hM, hM, 100);
-            line(0-R*2,0-R*2, 30,0-R*2);
+            line(0-R*2,0-R*2, 35,0-R*2);
             pop();
           }
         }
