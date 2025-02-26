@@ -20,7 +20,7 @@ function setup() {
  userStartAudio().then(() => {
     song.play();
   });
-}
+
 }
 
 function draw() {
