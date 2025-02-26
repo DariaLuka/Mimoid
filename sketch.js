@@ -97,7 +97,7 @@ class Grid {
             rotate(targetAngle * offset);
             hM = map(targetAngle * offset, -25, 25, 30, 90);
             stroke(hM, hM, 100);
-            line(0-R*2,0-R*2, 35,0-R*2);
+            line(0-R*2,0-R*2, 40,0-R*2);
             pop();
           }
         }
