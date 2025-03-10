@@ -2,6 +2,10 @@ html, body {
   margin: 0;
   padding: 0;
    background-color: black; /* Set the background color to black */
+overflow: hidden; /* Prevents scrolling */
+  height: 100%; /* Ensures full height */
+  width: 100%; /* Ensures full width */
+  position: fixed; /* Keeps the page static */
 }
 canvas {
   display: block;
